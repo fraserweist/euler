@@ -1,0 +1,1 @@
+# i cheated. there's no method for this that isn't brute force.
