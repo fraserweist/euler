@@ -61,7 +61,7 @@ def main():
 	start = 10000000000
 	ctr = int(sqrt(start))
 	solution, strings = 0, ("","")
-	
+
 	while True:
 		n1 = ctr**2
 		if n1 < 10000: break

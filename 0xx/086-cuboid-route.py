@@ -7,8 +7,8 @@ def integral(xy,z):
 	return sol**2 == c2
 
 def main():
-	m = 30
-	target = 2000
+	m = 3
+	target = 1000000
 	solution = 0
 	lst = []
 	ctr = 0
@@ -19,7 +19,6 @@ def main():
 					ctr += xy / 2
 				else:
 					ctr += m - (xy+1)/2 + 1
-		print m, ctr
 		if ctr > target:
 			solution = m
 			break
