@@ -1,0 +1,12 @@
+solved this one with good old-fashioned pen-and-paper logic.
+
+since we want the largest possible number as the minimum of the outside numbers, we want to use 6, 7, 8, 9, and 10.
+
+that means that 1-5 will each be used twice. if that's the case, then adding up each line will give us:
+2*(1+2+3+4+5) + 6+7+8+9+10 = 70
+
+if 70 is our total, then each line should sum to 70/5 = 14.
+
+6 is first, and we can only sum to 14 with 6+5+3. put 5 first to maximize string.
+
+logic follows, since we can only make 14 from 10 with 10+3+1.
